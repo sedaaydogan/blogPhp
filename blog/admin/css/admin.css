@@ -1,0 +1,122 @@
+/* Giriþ Yap*/
+#giris_yap{ padding:20px}
+#giris_yap table tr td input{margin:5px;padding:5px;width:220px; border:2px solid #ccc;border-radius:10px }
+#giris_yap table tr td input[type=text]:focus {border-color:#333 }
+#giris_yap table tr td button{margin-left:70px;margin-top:5px; padding:10px;background:#ccc;border:0 none;border-radius:5px;cursor:pointer}
+#giris_yap table tr td input[type=password]:focus {border-color:#333 }
+#giris_yap table tr th{font-size:15px}
+
+/* Sayfala*/
+ul,li{ padding:0;margin;list-style:none}
+.sayfala li select{width:220px;padding:3px;border:1px solid #ddd}
+.sayfala li button{background:#f1f1f1;cursor:pointer;font-size:12px;padding:3px;border:1px solid #ddd}
+.sayfala  li {float:left;margin-right:10px}
+.sayfala{ padding:15px 15px 0 15px}
+<html>
+ <head>
+ </head>
+ 
+ <sytle type="css/text">
+	#giris_yap{ padding:20px}
+	#giris_yap  input{margin:5px;padding:5px;width:220px; border:2px solid #ccc;border-radius:10px }
+	#giris_yap input[type=text]:focus {border-color:#333 }
+	#giris_yap  button{margin-left:70px;margin-top:5px; padding:10px;background:#ccc;border:0 none;border-radius:5px;cursor:pointer}
+	#giris_yap input[type=password]:focus {border-color:#333 }
+	#giris_yap table tr th{font-size:15px}
+
+ </style>
+<body>
+ 
+<form id="giris_yap"  action="blog" method="get">
+ 
+<table border="0" width=400><tr>
+ 
+<td>Üye Adý:</td><td><input type="text" name="textuyeadi"></td>
+ 
+<td><input type="button" value="Kontrol Et"></td></tr><br>
+ 
+<tr><td>Þifre:</td><td><input type="password" name="sifre"></td></tr><br>
+ 
+<tr><td>Adý:</td><td><input type="text" name="textadi"></td></tr><br>
+ 
+<tr><td>Soyadý:</td><td><input type="text" name="textsoyadi"></td></tr><br>
+ 
+</table>
+ 
+Cinsiyet:Bay<input type="radio" name="secenek">
+ 
+Bayan<input type="radio" name="secenek"><br>
+ 
+Ýlgi Alanlarýnýz:<br>
+ 
+Müzik<input type="checkbox" name="checkmuzik">
+ 
+spor<input type="checkbox" name="checkspor">
+ 
+Sinema<input type="checkbox" name="checksinema">
+ 
+Tiyatro<input type="checkbox" name="checktiyatro"><br>
+ 
+Doðum Yeri:<select name="msehir" size="1">
+ 
+<option value="sehir">Ýstanbul</option>
+ 
+<option value="sehir">Ankara</option>
+ 
+<option value="sehir">Ýzmir</option>
+ 
+<option value="sehir">Diðer</option></select>
+ 
+Mesaj:<br>
+ 
+<textarea name="mesaj" cols="40" rows="10">
+ 
+</textarea><br><br>
+ 
+<input type="submit" value="Gönder">
+ 
+<input type="reset" value="Temizle">
+ 
+</form>
+ 
+</body>
+ 
+</html>
+
+
+
+
+
+<html>
+<body>
+   <form name="form1" method="get" action="blog">
+				<div >
+				        
+						<fieldset>
+							<label>FÝRMA ADI</label>
+							<input type="text" name="firmaAd"/>
+						</fieldset>
+						<fieldset>
+							<label>TELEFON</label>
+							<input type="text" name="tel"/>
+						</fieldset>
+						<fieldset>
+							<label>FAX</label>
+							<input type="text" name="fax"/>
+						</fieldset>
+						<fieldset>
+							<label>ADRES</label>
+							<input type="text" name="adres"/>
+						</fieldset>
+						
+						
+				</div>
+			<footer>
+				<div>
+				  <input type="submit" value="Firma kaydet!" >
+				  
+				</div>
+			</footer>
+			</form>
+</body>
+</html>

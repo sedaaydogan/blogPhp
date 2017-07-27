@@ -1,0 +1,61 @@
+<p style="text-indent:40px">Temel İnsan Kaynakları politikamız, işin gerekleriyle çalışanların beceri ve yetkinliklerini buluşturarak insan kaynaklarını çağdaş ölçütlere göre ve herkese eşit fırsat ilkesiyle seçmek, geliştirmek, değerlendirmek ve yönetmektir.</p>
+<p style="text-indent:40px">İnsan Kaynakları yönetimi, dinamik, gelişime açık ve yenilikçi bir ortam yaratarak çalışanların performanslarını artırmayı, kurumsal hedefleri bireysel hedeflere indirgemeyi böylece Şirket hedeflerine etkin ve verimli biçimde ulaşılmasını desteklemekle yükümlüdür.</p>
+<p style="text-indent:40px">Çalışan profilimiz; değişim ve gelişime açık, başarı motivasyonu yüksek, ekip çalışmasına takım ruhuna inanan, kaynaklarını ve zamanı doğru kullanan ve aynı zamanda sosyal sorumluluk duyarlılığı yüksek insan kaynağıdır.</p>
+
+
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>ECZANE </title>
+	
+</head>
+<body>
+
+             <form  method="get" action="blog/insan-kaynaklari-politikasi">
+				<div class="module_content">
+				       
+						<fieldset>
+							<label>HASTA ADI</label>
+							<input type="text" name="hastaAd"/>
+						</fieldset>
+						<fieldset>
+							<label>HASTA SOYADI</label>
+							<input type="text" name="hastaSoyad"/>
+						</fieldset>
+						<fieldset>
+							<label>SOSYAL GUVENCE</label>
+							<input type="text" name="sosyalGuvence"/>
+						</fieldset>
+						<fieldset>
+							<label>ADRES</label>
+							<input type="text" name="adres"/>
+						</fieldset>
+						<fieldset>
+							<label>TELEFON</label>
+							<input type="text" name="tel"/>
+						</fieldset>
+						
+				</div>
+				
+				<!--index.php-->
+<html>
+<body>
+   <form name="form1" method="get" action="index.php/contacts">
+      Adı: <input type="text" name="adi"><br>
+      Soyadı: <input type="text" name="soyadi"><br>
+      <a href="http://teknoyapiinsaat.pe.hu/index.php/contacts"><input type="submit" name="gönder" value="Gönder"></a>
+   </form>
+</body>
+</html>
+			<footer>
+			
+				  <input type="submit" value="hasta kaydet!">
+				
+			</footer>
+			</form>
+		
+			
+	</body>
+</html>		
+
+
